@@ -1,0 +1,41 @@
+[
+  {
+    "id": "fone-wireless-demo",
+    "name": "Fone Wireless Studio",
+    "category": "Tecnologia",
+    "tag": "DESTAQUE",
+    "price": 199.9,
+    "description": "Produto demonstrativo para apresentar a experiência ShopView. Substitua pelos dados reais e confira preço, disponibilidade e características na Shopee.",
+    "image": "assets/images/product-placeholder.svg",
+    "model3d": "",
+    "poster": "",
+    "affiliateUrl": "",
+    "specs": ["Conectividade: preencher com informação confirmada", "Cor: preencher", "Garantia: consultar vendedor"]
+  },
+  {
+    "id": "luminaria-demo",
+    "name": "Luminária Minimal",
+    "category": "Casa & Decoração",
+    "tag": "DESIGN",
+    "price": "Consulte na Shopee",
+    "description": "Exemplo de produto para a categoria Casa & Decoração. Atualize imagens, descrição, especificações e link de afiliado antes de publicar.",
+    "image": "assets/images/product-placeholder.svg",
+    "model3d": "",
+    "poster": "",
+    "affiliateUrl": "",
+    "specs": ["Material: preencher", "Dimensões: preencher", "Disponibilidade: consultar vendedor"]
+  },
+  {
+    "id": "acessorio-demo",
+    "name": "Acessório Everyday",
+    "category": "Acessórios",
+    "tag": "NOVO",
+    "price": "Consulte na Shopee",
+    "description": "Produto ilustrativo. O botão de compra será conectado ao seu link de afiliado individual.",
+    "image": "assets/images/product-placeholder.svg",
+    "model3d": "",
+    "poster": "",
+    "affiliateUrl": "",
+    "specs": ["Modelo: preencher", "Cor: preencher", "Conteúdo da embalagem: preencher"]
+  }
+]
