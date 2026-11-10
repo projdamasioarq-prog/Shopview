@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f4ef">
+<meta name="description" content="Descubra produtos, explore cada detalhe em 3D e encontre sua próxima compra na ShopView Store.">
+<title>ShopView Store — Explore antes de comprar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<script defer src="assets/js/app.js"></script>
+</head>
+<body>
+<div class="topline">UMA NOVA FORMA DE DESCOBRIR PRODUTOS <span>✳</span> EXPLORE EM 3D</div>
+<header class="header"><a class="brand" href="./"><span class="brand-icon">S<span>V</span></span><span>SHOPVIEW <i>STORE</i></span></a>
+<nav><a href="#colecao">Explorar</a><a href="#experiencia">Experiência</a></nav><a class="header-cta" href="#colecao">Descobrir produtos <b>↗</b></a></header>
+<main>
+<section class="hero">
+<div class="hero-text"><p class="eyebrow"><span></span> COMPRA COM MAIS PERSPECTIVA</p><h1>Veja de perto.<br><em>Escolha melhor.</em></h1>
+<p class="hero-lead">Descubra produtos, explore cada detalhe em 3D e encontre sua próxima compra com uma experiência mais completa.</p>
+<a class="btn btn-dark" href="#colecao">Explorar coleção <b>↗</b></a><div class="hero-foot"><i></i> Uma experiência de compra mais visual e interativa</div></div>
+<div class="hero-art"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="art-card"><div class="art-top"><span>SHOPVIEW / 001</span><span>3D EXPERIENCE</span></div><div class="art-center"><div class="art-halo"></div><div class="art-object"><span>3D</span></div></div><div class="art-bottom"><div><b>Descubra em outra dimensão.</b><small>Explore produtos de um novo ângulo.</small></div><span class="art-arrow">↗</span></div></div><div class="float-tag"><span>↻</span><div>Gire. Aproxime.<br><b>Explore.</b></div></div><div class="art-count">01 — 03</div></div>
+</section>
+<section class="benefits" id="experiencia"><div><small>01</small><b>Explore em 3D</b><span>Veja o produto por vários ângulos</span></div><div><small>02</small><b>Conheça os detalhes</b><span>Informações reunidas em um só lugar</span></div><div><small>03</small><b>Compre na Shopee</b><span>Finalize no ambiente do vendedor</span></div></section>
+<section class="catalog" id="colecao"><div class="section-head"><div><p class="eyebrow"><span></span> CURADORIA SHOPVIEW</p><h2>Explore a seleção<span>.</span></h2></div><p>Produtos selecionados para você conhecer melhor, com imagens, informações e visualização 3D quando disponível.</p></div>
+<div class="tools"><div class="filters" id="filters"><button class="filter active" data-category="Todos">Todos</button></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Buscar produto..." aria-label="Buscar produto"></label></div>
+<div class="grid" id="products"><div class="loading">Preparando a seleção...</div></div><p class="empty hidden" id="empty">Nenhum produto encontrado. Tente outra busca.</p></section>
+<section class="statement"><div><p class="eyebrow light">MAIS DETALHES. MAIS PERSPECTIVA.</p><h2>Não imagine.<br><em>Explore.</em></h2></div><p>A visualização 3D ajuda você a observar formas e proporções antes de seguir para a página do vendedor.</p></section>
+</main>
+<footer class="footer"><a class="brand" href="./"><span class="brand-icon">S<span>V</span></span><span>SHOPVIEW <i>STORE</i></span></a><p>Explore em 3D. Conheça cada detalhe. Compre com confiança.</p><div class="footer-line"><span>© <span id="year"></span> ShopView Store</span><span>Este site pode conter links de afiliado.</span><a href="admin.html">Gerenciar catálogo ↗</a></div></footer>
+<dialog id="detail" class="dialog"><button class="close" id="close" aria-label="Fechar">×</button><div class="detail-grid"><div class="detail-media" id="media"></div><div class="detail-copy"><p class="eyebrow"><span></span> SHOPVIEW SELECTION</p><small id="category"></small><h2 id="name"></h2><b class="price" id="price"></b><p class="description" id="description"></p><ul id="specs"></ul><a class="btn btn-dark buy" id="buy" href="#" target="_blank" rel="nofollow sponsored noopener">Ver produto na Shopee <b>↗</b></a><p class="fineprint">Preço, estoque e condições são confirmados na página do vendedor.</p></div></div></dialog>
+</body></html>
